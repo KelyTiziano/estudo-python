@@ -6,7 +6,7 @@ if jog_1=="pedra" and jog_2=="tesoura":
 if jog_1=="tesoura" and jog_2=="papel":
     print(f"vence jog_1")
 print(f"{jog_1}{jog_2}")
-
+#gostaria de criar o jogo e poder jogar para testar com meu filho e também ele poder ter interesse em programação
 
 
 
