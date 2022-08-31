@@ -1,10 +1,10 @@
-jogador_1=int(input("escolha um numero de 0 a 10"))
-jogador_2=int(input("escolha um numero de 0 a 10"))
-resultado=jogador_1+jogador_2
+from random import randint
+jogador_1=int(input(" jogador 1isaac escolha um numero de 0 a 10 "))
+computer=randint(1,10)
+resultado=jogador_1+computer
 talvez_par=resultado%2
 if talvez_par==0:
-    print(f"o jogador venceu")
-else:
-    print(f"o jogador perdeu")
+    print(f"o jogador escolheu {jogador_1}")
+    print(f"the computer choose {computer}")
 
 
